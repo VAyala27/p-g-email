@@ -1,0 +1,1026 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        border: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .three-col-img {
+        width: 200px;
+        max-width: 200px;
+      }
+
+      .two-col-img {
+        width: 300px;
+        max-width: 300px;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+        .two-col-img {
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+      @media only screen and (max-width: 399.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          height: 110px !important;
+        }
+
+        .footer .content p a {
+          font-size: 10px !important;
+        }
+        .footer .content p {
+          font-size: 10px !important;
+        }
+      }
+
+      /* Custom Dark Mode Colors */
+
+      @media (prefers-color-scheme: dark) {
+        .sub-header .column p {
+          color: #383633 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table{border-collapse: collapse; !important}
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+  >
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: sans-serif, Arial, Helvitica !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Start of HTML EMAIL -->
+    <center
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #dde0e1;
+        padding-bottom: 40px;
+      "
+    >
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <!-- Preheader (remove) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text! SALE SALE 25% OFF!
+          <!-- Add Preheader Text (85-100 character) -->
+        </div>
+        <!-- End Preheader (remove) -->
+
+        <!--[if (gte mso 9)|(IE)]>
+         <table width="600" align="center" style="border-spacing: 0; color:#565656" role="presentation">
+            <tr>
+               <td style="padding: 0;">
+    <![endif]-->
+
+        <!-- Start of container -->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            color: #565656;
+            font-family: sans-serif, Arial, Helvitica !important;
+            background-color: #fafdfe;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/tTv0dbbs/p-g-header.png"
+                                  alt="header"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col hero -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/pr3g7Bpx/p-g-hero.png"
+                                  alt="hero"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/h4wWfKMw/p-g-family-care.png"
+                                  alt="p-g-family-care"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td width="600" valign="top" style="padding: 0;">
+                                 <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/fbKQLXgj/p-g-family-care-btn.png"
+                                  alt="p-g-family-care-btn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                          </tr>
+                        </table>
+                          <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/PJCg27f2/p-g-dawn.png"
+                                  alt="p-g-dawn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td width="600" valign="top" style="padding: 0;">
+                                 <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/fRYhG1cP/p-g-dawn-btn.png"
+                                  alt="p-g-dawn-btn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                          </tr>
+                        </table>
+                          <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/4N9CcjS3/p-g-fabric-care.png"
+                                  alt="p-g-dawn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td width="600" valign="top" style="padding: 0;">
+                                 <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/1zPZsMM3/p-g-fabric-care-btn.png"
+                                  alt="p-g-fabric-care-btn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                          </tr>
+                        </table>
+                          <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td width="600" valign="top" style="padding: 0;">
+                                 <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/K8PdqBFS/p-g-tide.png"
+                                  alt="p-g-tide"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                          </tr>
+                        </table>
+                          <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 20px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                        <td width="600" valign="top" style="padding: 0;">
+                                     <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/XJYSyJRM/p-g-tide-btn.png"
+                                  alt="p-g-tide-btn"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                              </tr>
+                            </table>
+                              <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <tr>
+            <td style="padding: 0 0px 10px 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td height="2" style="background-color: #3aaee0"></td>
+                </tr>
+                <tr></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!--Start of one-col  -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                                              <tr>
+                                              <td width="600" valign="top" style="padding: 0;">
+                                           <![endif]-->
+
+                    <table
+                      class="one-column footer"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="
+                              border-spacing: 0;
+                              width: 600px;
+                              max-width: 100%;
+                            "
+                            role="presentation"
+                          >
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  width="100%"
+                                  style="border-spacing: 0"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 10px 0px 8px 0px;
+                                      "
+                                    >
+                                      <a
+                                        style="
+                                          text-decoration: underline;
+                                          color: #555555;
+                                          border: 0;
+                                          font-size: 12px;
+                                          font-family: 'Avenir', sans-serif,
+                                            Helvetica Neue, Arial, sans-serif;
+                                          border-right: 1px solid #555;
+                                          padding: 0px 5px;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        PGGoodEveryday.com
+                                      </a>
+                                      <a
+                                        style="
+                                          text-decoration: underline;
+                                          color: #555555;
+                                          border: 0;
+                                          font-size: 12px;
+                                          font-family: 'Avenir', sans-serif,
+                                            Helvetica Neue, Arial, sans-serif;
+                                          padding: 0px 5px;
+                                          border-right: 1px solid #555;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        Contact Us
+                                      </a>
+
+                                      <a
+                                        style="
+                                          text-decoration: underline;
+                                          color: #555555;
+                                          border: 0;
+                                          font-size: 12px;
+                                          font-family: 'Avenir', sans-serif,
+                                            Helvetica Neue, Arial, sans-serif;
+                                          padding: 0px 5px;
+                                          border-right: 1px solid #555;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        Privacy Notice
+                                      </a>
+
+                                      <a
+                                        style="
+                                          text-decoration: underline;
+                                          color: #555555;
+                                          border: 0;
+                                          font-size: 12px;
+                                          font-family: 'Avenir', sans-serif,
+                                            Helvetica Neue, Arial, sans-serif;
+                                          padding: 0px 5px;
+                                          border-right: 1px solid #555;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        Terms & Conditions
+                                      </a>
+                                    </td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        This email was sent to
+                                        vmzero1996@yahoo.com
+                                      </p>
+
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        To make sure you receive this
+                                        newsletter, please add the address
+                                      </p>
+
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        <a
+                                          style="
+                                            font-size: 12px;
+                                            color: #808080;
+                                            text-decoration: underline;
+                                          "
+                                          href="http://example.com"
+                                        >
+                                          PGGoodEveryday@email.pggoodeveryday.com
+                                        </a>
+                                        to your contacts.
+                                      </p>
+
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        Global Privacy Officer
+                                        <br />
+
+                                        Global Privacy, Cybersecurity & IT Law
+                                        Group
+                                        <br />
+
+                                        One Procter & Gamble Plaza - C9
+                                        <br />
+
+                                        Cincinnati, Ohio 45202
+                                        <br />
+                                      </p>
+
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        ©2022 Procter & Gamble. All rights
+                                        reserved.
+                                        <br />
+                                        All copy and claims valid only in the
+                                        U.S.
+                                      </p>
+
+                                      <p
+                                        style="
+                                          margin: 0;
+                                          font-size: 12px;
+                                          text-align: center;
+                                          color: #808080;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        This message was sent to you on behalf
+                                        of P&G Good Everyday.
+                                        <br />
+                                        You recently gave us permission to
+                                        contact you by email.
+                                        <br />
+                                        If you do not wish to receive
+                                        newsletters from P&G Good Everyday by
+                                        email,
+                                        <br />
+                                        please select this
+                                        <a
+                                          style="
+                                            font-size: 12px;
+                                            color: #383633;
+                                            text-decoration: underline;
+                                          "
+                                          href="http://example.com"
+                                        >
+                                          link
+                                        </a>
+                                        to unsubscribe.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <tr>
+            <td style="padding: 0 0px 10px 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td height="2" style="background-color: #3aaee0"></td>
+                </tr>
+                <tr></tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- End of container -->
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+   </table>
+         <![endif]-->
+      </div>
+      <!-- End of HTML EMAIL -->
+    </center>
+  </body>
+</html>
